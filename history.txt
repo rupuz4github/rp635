@@ -1,0 +1,270 @@
+    1  sudo apt-get install synaptic
+    2  sudo synaptic
+    3  mk dir
+    4  sudo synaptic
+    5  sudo apt-get install mysql-server
+    6  fasfasdk
+    7  cd
+    8  cd /etc
+    9  ll
+   10  cd udev
+   11  ll
+   12  cd ..
+   13  mkdir git
+   14  msql -u root -p
+   15  mysql
+   16  show database;
+   17  show database
+   18  cd..
+   19  history
+   20  mysql -u root -p
+   21  mysql showdatabase;
+   22  mysql showdatabases;
+   23  mysql show databases;
+   24  show column from user;
+   25  cd..
+   26  sudo apt-get install
+   27  sudo apt-get install synaptic
+   28  mysql show database;
+   29  sudo apt-get install mysql
+   30  mysql -u root -p
+   31  show databases;
+   32  mysql -u root -p
+   33  Rowepe06
+   34  mysql -u root -p
+   35  sudo apt-get install mysql
+   36  sudo apt-get uninstall mysql
+   37  sudo apt-get install mysql-server
+   38  mysql show databases;
+   39  mysql -u root -p
+   40  sudo apt-get install php
+   41  git
+   42  sudo apt install git
+   43  mkdir it635
+   44  ls
+   45  cd it635
+   46  git init
+   47  git status
+   48  sudo apt-install gitk
+   49  sudo apt-get install gitk
+   50  getk
+   51  gitk
+   52  git log
+   53  show database;
+   54  sudo apt-get update
+   55  clear
+   56  ls
+   57  mysql -u root -p
+   58  sudo apt-get install php
+   59  show php
+   60  sudo app-get install git
+   61  exit;
+   62  sudo apt-get install git
+   63  mkdir RPetersIT635Spring
+   64  ls
+   65  rm RPetersIT635Spring
+   66  rm -r RPetersIT635Spring
+   67  ls
+   68  mkdir RPetersIT635Spring17
+   69  ls
+   70  cd RPetersIT635Spring17
+   71  ls
+   72  git init
+   73  git status
+   74  mysqldump -u root -p > backup.sql
+   75  mysqldump -u root -p Classes > backup.sql
+   76  cat backup.sql
+   77  git add backup.sql
+   78  get status
+   79  git status
+   80  exit;
+   81  cd RPtersIT635Spring17
+   82  ls
+   83  cd RPeteraIT635Spring17
+   84  cd RPeteraIT635Spring17/
+   85  cd RPetersIT635Spring17
+   86  ls
+   87  git init
+   88  git status
+   89  history
+   90  history > history.txt
+   91  cat history.txt
+   92  git add history.txt
+   93  git status
+   94  git commit -m
+   95  git commit -m "first commit nothing important here"
+   96  git config --global user.email "rep22@njit.edu"
+   97  git confit --global user.name "Rupert Peters"
+   98  git config --global user.name "Rupert Peters"
+   99  git config --global user.name "Rupert E. Peters"
+  100  git commit -m "first commit, nothing important here"
+  101  sudo apt-get instakk gitk
+  102  sudo apt-get install gitk
+  103  gitk
+  104  git log
+  105  git remote add origin https://github.com/rupuz4github/RPetersIT635Spring17.git
+  106  git push -u origin master
+  107  history > history.txt
+  108  git status
+  109  get commit -m"update history"
+  110  get commit -m "update history"
+  111  git status
+  112  git commit -m "update history"
+  113  git commit -am "update history"
+  114  gitk
+  115  git push
+  116  exit
+  117  getedit
+  118  gedit
+  119  show php
+  120  cd php-mysql
+  121  sudo gedit
+  122  sudo apt-get install vim
+  123  vim
+  124  cd vim
+  125  cd ..
+  126  cd .
+  127  cd../
+  128  cd ..exit
+  129  exit
+  130  cd
+  131  cd..
+  132  exit
+  133  ls
+  134  php
+  135  vim
+  136  vim.authentication.sql
+  137  vim.sql
+  138  vim
+  139  sudo get-apt vim install
+  140  sudo get-apt install vim
+  141  vim
+  142  sudo apt-get install vim
+  143  vim
+  144  use vim
+  145  exit
+  146  cd git
+  147  vim
+  148  vi demo.txt
+  149  vi rupertdemo.txt
+  150  ls
+  151  vm test db php
+  152  exit
+  153  ls
+  154  php -u root -p
+  155  git status
+  156  ls
+  157  git RPetersITS635Spring17
+  158  get --help
+  159  git --help
+  160  clear
+  161  sudo git
+  162  mkdir RPIT635Spring2017
+  163  ls
+  164  cd RPIT635Spring2017
+  165  ls
+  166  git init
+  167  git status
+  168  git commit -m
+  169  git commit "first commit nothing important here"
+  170  ll
+  171  git clone
+  172  git clone https://github.com/engineerOfLies/IT635Spring17.git
+  173  git pull
+  174  ll
+  175  cd
+  176  cd IT635Spring2017
+  177  cd
+  178  cd IT635Spring17
+  179  clear
+  180  ll
+  181  cd RPIT635Spring17
+  182  ls
+  183  cd it635
+  184  ll
+  185  cd git
+  186  ll
+  187  cd ..
+  188  ll
+  189  cd ..
+  190  cd ~
+  191  ll
+  192  cd RPetersIT635Spring17
+  193  ll
+  194  git pull
+  195  ll
+  196  git checkout
+  197  git checkout 08022017
+  198  git pull
+  199  cd..
+  200  cd ..
+  201  ll
+  202  clear
+  203  ll
+  204  ls
+  205  clear
+  206  cd ..
+  207  cd ~
+  208  ll
+  209  cd RPetersIT635Spring17
+  210  git push
+  211  git  commit
+  212  history
+  213  history >history.txt
+  214  git commit -am
+  215  git push
+  216  git commit -am "update history"
+  217  ll
+  218  cd ..
+  219  ls
+  220  mv RPetersIT635Spring17
+  221  mkdir RPIT635S17
+  222  ll
+  223  cd RPIT635S17
+  224  ls
+  225  git init
+  226  trial.txt
+  227  git status
+  228  git add trial.txt
+  229  git commit
+  230  clear
+  231  sudo php
+  232  ls
+  233  sudo git status
+  234  cd../
+  235  su
+  236  clear
+  237  sudo vim rupuz.text
+  238  ls
+  239  cd rupuz.text
+  240  cd Musc
+  241  cd Music
+  242  sudo vim rupuzmusic.text
+  243  ls
+  244  show rupuzmusic.text
+  245  cd
+  246  cd..
+  247  cd..cd
+  248  sudo mysql
+  249  cd mysql
+  250  mysql -u username -p
+  251  mysql -u root -p
+  252  exit
+  253  mysql -u root -p
+  254  sudo apt-get install php
+  255  sudo apt-get install git
+  256  mkdir rp635
+  257  ls
+  258  cd rp635
+  259  git init
+  260  git status
+  261  mysqldump -u root -p > backup.sql
+  262  show databases;
+  263  cd..
+  264  mysql -u root -p;
+  265  mysqldump -u root -p Classes >backup.sql
+  266  cat backup.sql
+  267  git add backup.sql
+  268  git status
+  269  history
+  270  history > history.txt
