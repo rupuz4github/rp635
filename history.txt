@@ -250,21 +250,79 @@
   250  mysql -u username -p
   251  mysql -u root -p
   252  exit
-  253  mysql -u root -p
-  254  sudo apt-get install php
-  255  sudo apt-get install git
-  256  mkdir rp635
-  257  ls
-  258  cd rp635
-  259  git init
-  260  git status
-  261  mysqldump -u root -p > backup.sql
-  262  show databases;
-  263  cd..
-  264  mysql -u root -p;
-  265  mysqldump -u root -p Classes >backup.sql
-  266  cat backup.sql
-  267  git add backup.sql
-  268  git status
-  269  history
-  270  history > history.txt
+  253  cd git/
+  254  cd it635/
+  255  ls
+  256  vim testdb.php
+  257  chmod +x testdb.php
+  258  ls -la
+  259  vim testdb.php
+  260  gedit testdb.php
+  261  vim testdb.php
+  262  cd git RpetersIT635Spring17/
+  263  cd git RPetersIT635Spring17/
+  264  yes
+  265  mysql -u root -p;
+  266  vim
+  267  ls
+  268  cd git/
+  269  mk dir git;
+  270  mkdir git;
+  271  ls
+  272  cd git/
+  273  cd rp635/
+  274  cd RPetersIT635Spring17/
+  275  clear
+  276  exit
+  277  ls
+  278  cd rp635/
+  279  ls
+  280  git init
+  281  git status
+  282  mysqldump -u root -p > backup.mysql
+  283  mysqldump -u root -p Liberia_Social_Security_DB> backup.sql
+  284  mysqldump -u root -p Liberia_Social_Security_System> backup.sql
+  285  git add backup.sql
+  286  get status
+  287  git status
+  288  git add testdb.php
+  289  git status
+  290  git add rupuz.text
+  291  git add rupuz.txt
+  292  git commit -m " tryin to commit to rp635'
+  293  ;
+  294  ;
+  295  mysqldump -u root -p Liberia_Social_Security_System> backup.sql;
+  296  \
+  297  \\
+  298  ;
+  299  exit
+  300  exit;
+  301  ;
+  302  cd rep635/
+  303  ls
+  304  cd rp635/
+  305  git status
+  306  git commit -m "tryin to add";
+  307  gitk
+  308  cd rep635/
+  309  ls
+  310  cd rep635/
+  311  cd rp635/
+  312  ls
+  313  git init
+  314  git status
+  315  git add
+  316  git status
+  317  git add backup.mysql
+  318  git status
+  319  git commit -m "another trial"
+  320  mysql dump -u root -p Liberia_Social_Security_System > backup.sql
+  321  mysql dump -u root -p Liberia_Social_Security_System > backup.sql;
+  322  cat back.sql
+  323  gitk
+  324  history
+  325  history > history.txt
+  326  cd rp635
+  327  history
+  328  history > history.txt
