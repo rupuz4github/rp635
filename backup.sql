@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.17, for Linux (x86_64)
 --
--- Host: localhost    Database: TechSales
+-- Host: localhost    Database: SSN
 -- ------------------------------------------------------
 -- Server version	5.7.17-0ubuntu0.16.04.1
 
@@ -16,56 +16,35 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `Admin`
+-- Table structure for table `CITIZENS`
 --
 
-DROP TABLE IF EXISTS `Admin`;
+DROP TABLE IF EXISTS `CITIZENS`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `Admin` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(16) DEFAULT NULL,
-  `displayName` varchar(255) DEFAULT NULL,
-  `password` varchar(255) DEFAULT NULL,
-  `permissions` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+CREATE TABLE `CITIZENS` (
+  `SSID` int(11) NOT NULL AUTO_INCREMENT,
+  `LastName` varchar(225) DEFAULT NULL,
+  `Firstname` varchar(225) DEFAULT NULL,
+  `DOB` varchar(225) DEFAULT NULL,
+  `SEX` varchar(225) DEFAULT NULL,
+  `POB` varchar(225) DEFAULT NULL,
+  `STATUS` varchar(255) DEFAULT NULL,
+  `PASSWORD` varchar(225) DEFAULT NULL,
+  `PERMISSION` varchar(225) DEFAULT NULL,
+  `username` varchar(225) DEFAULT NULL,
+  PRIMARY KEY (`SSID`)
+) ENGINE=InnoDB AUTO_INCREMENT=1017 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `Admin`
+-- Dumping data for table `CITIZENS`
 --
 
-LOCK TABLES `Admin` WRITE;
-/*!40000 ALTER TABLE `Admin` DISABLE KEYS */;
-INSERT INTO `Admin` VALUES (1,'root','Administrator','12345','administrator'),(2,'rpeter','Rupert Peters','password',' ');
-/*!40000 ALTER TABLE `Admin` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `Customers`
---
-
-DROP TABLE IF EXISTS `Customers`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `Customers` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `Name` varchar(225) DEFAULT NULL,
-  `State` varchar(225) DEFAULT NULL,
-  `Modified` varchar(225) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `Customers`
---
-
-LOCK TABLES `Customers` WRITE;
-/*!40000 ALTER TABLE `Customers` DISABLE KEYS */;
-INSERT INTO `Customers` VALUES (1,'John Marsh','NJ','Active'),(2,'Mary Jones','CT','Inactive'),(3,'Aaron Weah','PA','Inactive'),(4,'Agnes Johnson','IL','Active'),(5,'James Johnson','RI','Active');
-/*!40000 ALTER TABLE `Customers` ENABLE KEYS */;
+LOCK TABLES `CITIZENS` WRITE;
+/*!40000 ALTER TABLE `CITIZENS` DISABLE KEYS */;
+INSERT INTO `CITIZENS` VALUES (1001,'Peters','Rupert','12-14-1950','M','Bassa','Living','12345','Admin','rpeter'),(1002,'Morris','Amot','03-10-1975','M','Bong','Deceased',' ',' ',NULL),(1003,'Artes','Amos','01-01-1980','M','Mont','Living',' ',' ',NULL),(1004,'Jones','Mast','05-07-1974','M','Harper','DECEASED',' ',' ',NULL),(1005,'Paye','Augtina','06-13-1985','F','LOfa','DECEASED',' ',' ',NULL),(1006,'Bradley','Susan','04-12-1995','F','Kakata','Living',' ',' ',NULL),(1007,'James','Mary','05-30-2001','F','Sinkor','Living',' ',' ',NULL),(1008,'Apons','Francis','02-24-2014','M','Duala','Living',' ',' ',NULL),(1009,'Tedor','Delvsa','12-24-2015','F','Gedeh','Living',' ',' ',NULL),(1010,'Jabes','Carey','11-30-2000','F','Kru','Living',' ',' ',NULL),(1011,'Hodge','Marcus','01-30-2013','M','Bapolu','Living',' ',' ',NULL),(1012,'Teage','Yandi','06-20-1986','F','Cape','Living',' ',' ',NULL),(1014,'Mandy','Amana','02-04-1985','M','Moet','Living',' ',' ',' '),(1016,'Mingo','Plummy ','02-05-2017','SEX',' POB','STATUS',' ',' ',' ');
+/*!40000 ALTER TABLE `CITIZENS` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -77,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-03-22  6:57:59
+-- Dump completed on 2017-03-22 20:45:29
